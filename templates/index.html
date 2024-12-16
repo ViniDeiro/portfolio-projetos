@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do App</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    
+    <!-- Formulário para adicionar tarefa -->
+    <form action="/add" method="POST">
+        <input type="text" name="title" placeholder="Digite a tarefa">
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul>
+        {% for task in tasks %}
+        <li>
+            {{ task.title }} 
+            <a href="/delete/{{ task.id }}">Excluir</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
