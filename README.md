@@ -34,9 +34,6 @@ Sou um aspirante a desenvolvedor back-end em busca de meu primeiro emprego na á
   - Rotas HTTP para interações no sistema (GET, POST).  
   - Formulários HTML e integração com Flask para entrada de dados.  
 
-- **Captura de Tela (opcional):**  
-  *(Você pode adicionar prints das telas do projeto aqui.)*
-
 ---
 
 ## 🛠 Tecnologias em Uso
